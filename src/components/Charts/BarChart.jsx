@@ -11,22 +11,22 @@ const data = [
   {
     name: "Copenhagen, Denmark",
     percentage: 5,
-    color: "blue",
+    color: "green",
   },
   {
     name: "New York, USA",
     percentage: 38,
-    color: "green",
+    color: "blue",
   },
   {
     name: "London, UK",
     percentage: 73,
-    color: "purple",
+    color: "yellow",
   },
   {
     name: "Berlin, Germany",
     percentage: 17,
-    color: "yellow",
+    color: "purple",
   },
 ];
 
