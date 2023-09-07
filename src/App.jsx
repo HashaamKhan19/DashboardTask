@@ -1,4 +1,4 @@
-import Sidebar from "./Components/Layout/Sidebar";
+import Sidebar from "./components/Layout/Sidebar";
 import Dashboard from "./components/Dashboard";
 import { useTheme } from "./context/ThemeContext";
 
