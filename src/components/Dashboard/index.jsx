@@ -1,14 +1,11 @@
 /*eslint-disable*/
 import React from "react";
-import { useTheme } from "../context/ThemeContext";
-import ThemeToggle from "../components/Buttons/ThemeToggle";
-import LineChart from "../components/Charts/LineChart";
-import ActiveUsers from "../components/Dashboard/ActiveUsers";
-import TopCities from "../components/Dashboard/TopCities";
+import LineChart from "../Charts/LineChart";
+import ActiveUsers from "./ActiveUsers";
+import TopCities from "./TopCities";
+import ThemeToggle from "../Buttons/ThemeToggle";
 
 const Dashboard = () => {
-  const { isDarkMode } = useTheme();
-
   return (
     <div className="flex flex-col px-4">
       <div className="flex flex-row justify-between px-4 py-2 mb-6">
